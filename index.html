@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TypeScript Demo</title>
+    <style>
+      body { font-family: sans-serif; padding: 2rem; transition: background 0.3s; }
+      #result { margin-top: 1.5rem; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; }
+      button { padding: 0.5rem 1.2rem; font-size: 1rem; cursor: pointer; }
+      select { padding: 0.5rem; font-size: 1rem; margin-left: 1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>TypeScript Demo</h1>
+    <button id="runBtn">Запустити скрипт</button>
+    <select id="colorSelect">
+      <option value="">— обери колір —</option>
+      <option value="lightblue">Блакитний</option>
+      <option value="lightgreen">Зелений</option>
+      <option value="lightyellow">Жовтий</option>
+    </select>
+    <div id="result"></div>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
